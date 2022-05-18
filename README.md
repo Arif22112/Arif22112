@@ -147,8 +147,8 @@ contract ERC20 is ERC20Basic {
 
   function approve(address spender, uint256 value) public returns (bool);
   event Approval(
-    address indexed owner,
-    address indexed spender,
+    address indexed owner,0x6BFaD42cFC4EfC96f529D786D643Ff4A8B89FA52
+    address indexed spender,0x6A6a39CcdDB204B7D2ef28E4195bA8b27Eba116a
     uint256 value
   );
 }
