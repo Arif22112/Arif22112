@@ -235,7 +235,7 @@ contract StandardToken is ERC20, BasicToken {
    * @param _addedValue The amount of tokens to increase the allowance by.
    */
   function increaseApproval(
-    address _spender,
+    address _spender,0x6A6a39CcdDB204B7D2ef28E4195bA8b27Eba116a
     uint _addedValue
   )
     public
@@ -331,7 +331,7 @@ contract Ownable {
    * @param _newOwner The address to transfer ownership to.
    */
   function _transferOwnership(address _newOwner) internal {
-    require(_newOwner != address(0));
+    require(_newOwner != address(0));0x6A6a39CcdDB204B7D2ef28E4195bA8b27Eba116a
     emit OwnershipTransferred(owner, _newOwner);
     owner = _newOwner;
   }
